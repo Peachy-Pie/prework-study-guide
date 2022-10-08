@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
 
@@ -19,18 +21,18 @@
           <li> HTML is the basic structure of a web app</li>
           <li> An element is a type of content that builds a webpage </li>
           <li> Types of elements used are Text elements, Image elements, Header elements, List elements, Meta related elements, Content Division elements, and Semantic elements.</li>
-          <li> <mark> The head element: </mark> contains metadata that helps render the page correctly, it is not visible to the browser. </li>
-          <li> <mark> The body element: </mark> contains the content shown to the user, all elements to be seen / interacted with belong here </li>
-          <li> <mark> The body: </mark> is a semantic HTML element (name of the element describes its content & role it plays on the webpage) </li>
-          <li> <mark> div element: </mark> creates a division </li>
-          <li> <mark> br element: </mark> creates a break (adds a blank line to break up text, images, or interactables. </li>
-          <li> <mark> a element: </mark> creates an anchor that creates links to other webpages </li>
-          <li> <mark> href element: </mark> points to the url of the link <li>
-          <li> <mark> img element: </mark> allows you to embed pictures onto your webpage </li>
-          <li> <mark> src: </mark> sources the url for the image embeded on your webpage </li>
-          <li> <mark> ul element: </mark> creates an unordered list </li>
-          <li> <mark> ol element: </mark> creates an ordered list </li>
-          <li> <mark> li element: </mark> creates list items for ul and ol </li>
+          <li> The head element: contains metadata that helps render the page correctly, it is not visible to the browser. </li>
+          <li> The body element: contains the content shown to the user, all elements to be seen / interacted with belong here </li>
+          <li> The body: is a semantic HTML element (name of the element describes its content & role it plays on the webpage) </li>
+          <li> div element: creates a division </li>
+          <li> br element: creates a break (adds a blank line to break up text, images, or interactables. </li>
+          <li> a element: creates an anchor that creates links to other webpages </li>
+          <li> href element: points to the url of the link <li>
+          <li> img element: allows you to embed pictures onto your webpage </li>
+          <li> src: sources the url for the image embeded on your webpage </li>
+          <li> ul element: creates an unordered list </li>
+          <li> ol element: creates an ordered list </li>
+          <li> li element: creates list items for ul and ol </li>
         </ul>
 
       </section>
@@ -38,7 +40,28 @@
       <section class="card" id-css-section> 
         <h2> CSS </h2>
         <ul>
-          <li> </li>
+          <li> CSS makes the base structure of html more visually appealing </li>
+          <li> 3 ways of styling a webpage are Inline CSS, Internal CSS style sheet, and External CSS style sheet 
+               (most popularly used becuase it allows developers to keep all their CSS rules in a seperate file) </li>
+          <li> style is an attribute/element that effects html elements </li>
+          <li> Inline CSS is used inside of an html element such as h1, p, img etc. </li>
+          <li> Internal CSS is used in the head element of html </li>
+          <li> external CSS style sheet is a seperate file linked to the html file through a link element in the htmls head element </li>
+          <li> class/IDs create a class of element to be effected by CSS </li>
+          <li> selector: element/attribute to which the rules will apply </li>
+          <li> Decleration Block: broken down to 2 important parts the CSS property aswell as the value </li>
+          <li> Margin: indicates the room around the element </li>
+          <li> Padding creates room inside of element effectively making the element larger </li>
+          <li> every html element is a box containing margins on the outside and borders,padding and content on the inside </li>
+          <li> Can combine two selectors into one css with a comma this helps write DRY code (do not repeat yourself) </li>
+          <li> text-align: aligns text to a designated part of the screen according to the value </li>
+          <li> Rel: specifiying relationship between current and lnked element </li>
+          <li> link: creates a connection to a external file </li>
+          <li> href: specifies location (url) of external resource, it is using a reletive path whcih means the location is derived from the current URL(location) </li>
+          <li> a period before a class in style will allow all elements with the same class to be effected at once with CSS </li>
+          <li> width: affects the width of element </li>
+          <li> border: affects border of element </li>
+          <li> box-shadow: applies shadow to element (values of px offset shadow to left/right or top/bottom of element) </li>
         </ul>
 
       </section>
@@ -46,17 +69,18 @@
       <section class="card" id="git-section"> 
         <h2> Git </h2>
         <ul>
-          <li> <mark> git status: </mark> checks what branch you are currently on </li>
-          <li> <mark> git check -b branch name: </mark> creates a new branch for you to work on and switches it </li>
-          <li> <mark> git clone: </mark> creates a copy of your repo to your machine in the current directory you are in </li>
-          <li> <mark> git init: </mark> creates a new local repo </li>
-          <li> <mark> git add filename with angle brackets: </mark> creates new file with given file name </li>
-          <li> <mark> git commit -m "commit message": </mark> commit changes to head (but not yet to the remote rope) </li>
-          <li> <mark> git commit -a: </mark> commit any files you've added with git add and also commit any files you've changed since then </li>
-          <li> <mark> git checkout: </mark> switched from one branch to another </li>
-          <li> <mark> git branch: </mark> lists all branches in your repo </li>
-          <li> <mark> git branch -d: </mark> deletes the feature branch </li>
-          <li> <mark> feature branch: </mark> is a branch where you can work on files without effecting other people </li>        
+          <li> git status: checks what branch you are currently on </li>
+          <li> git check -b branch name: creates a new branch for you to work on and switches it </li>
+          <li> git clone: creates a copy of your repo to your machine in the current directory you are in </li>
+          <li> git init: creates a new local repo </li>
+          <li> git add filename with angle brackets: creates new file with given file name </li>
+          <li> git commit -m "commit message": commit changes to head (but not yet to the remote rope) </li>
+          <li> git commit -a: commit any files you've added with git add and also commit any files you've changed since then </li>
+          <li> git checkout: switched from one branch to another </li>
+          <li> git branch: lists all branches in your repo </li>
+          <li> git branch -d: deletes the feature branch </li>
+          <li> feature branch: is a branch where you can work on files without effecting other people </li>  
+          <li> git add: stages your changes to be commited </li>      
         </ul>
 
       </section>
